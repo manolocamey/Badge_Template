@@ -1,0 +1,69 @@
+.desktop {
+  width: 168px;
+  height: 218px;
+  background-color: white;
+  padding: 14px 20px 16px 20px;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  color: #666666;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .desktop .title {
+    width: 100%;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 13px;
+    letter-spacing: -0.5px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #DCDCDC; }
+  .desktop .percent {
+    padding-top: 14px;
+    padding-left: 5px; }
+    .desktop .percent reevoo-score {
+      display: block;
+      float: left;
+      margin-right: 6px; }
+    .desktop .percent reevoo-percent {
+      display: block;
+      float: left;
+      height: 22px;
+      width: 22px; }
+  .desktop .would-by-again {
+    width: 100%;
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+    padding-top: 13px; }
+  .desktop .bottom {
+    width: 100%; }
+    .desktop .bottom .number-of-reviews {
+      color: #146AFF;
+      font-size: 14px;
+      margin-bottom: 15px;
+      letter-spacing: -0.3px; }
+    .desktop .bottom reevoo-logo {
+      display: inline-block;
+      width: 98px;
+      height: 23px; }
+
+
+
+
+      
